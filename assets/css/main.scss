@@ -1,0 +1,213 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+.homepage-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.metric-card,
+.section-card,
+.notice-card,
+.publication-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+.metric-card {
+    padding: 1.2rem 1rem;
+    text-align: center;
+}
+
+.metric-value {
+    color: #0b4dbb;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.metric-label {
+    margin-top: 0.45rem;
+    color: #475569;
+    font-size: 0.95rem;
+}
+
+.notice-card {
+    margin: 1rem 0 2rem;
+    padding: 1rem 1.2rem;
+}
+
+.notice-card p:last-child {
+    margin-bottom: 0;
+}
+
+.publication-list,
+.section-card-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1.25rem 0 1.75rem;
+}
+
+.publication-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1.1rem 1.2rem;
+    align-items: flex-start;
+}
+
+.publication-content {
+    flex: 1;
+}
+
+.publication-content h3,
+.section-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.publication-content p,
+.section-card p {
+    margin: 0.35rem 0;
+}
+
+.venue-chip {
+    flex: 0 0 auto;
+    min-width: 78px;
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    background: #0b4dbb;
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-card {
+    padding: 1.2rem 1.25rem;
+}
+
+.section-card-meta {
+    color: #64748b;
+    font-size: 0.92rem;
+    margin-bottom: 0.4rem;
+}
+
+@include breakpoint(max-width $small) {
+    .publication-item {
+        flex-direction: column;
+    }
+
+    .venue-chip {
+        min-width: 0;
+    }
+}
