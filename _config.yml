@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "帖桂尧 | 个人学术主页"
-description              : "帖桂尧的个人学术主页，聚焦大语言模型评测、推理能力分析、训练后优化与 LLM Agent 安全研究。"
+title                    : "Guiyao Tie | Personal Homepage"
+description              : "Personal homepage of Guiyao Tie, focusing on LLM evaluation, reasoning analysis, post-training, and LLM agent security."
 repository               : ""
 google_scholar_stats_use_cdn : false
 
@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "帖桂尧"
+  name             : "Guiyao Tie"
   avatar           : "images/profile.jpg"
-  bio              : "华中科技大学 | 大语言模型评测与 Agent 安全"
+  bio              : "Huazhong University of Science and Technology | LLM Evaluation and Agent Safety"
   location         :
-  employer         : "华中科技大学"
+  employer         : "Huazhong University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?user=BjvGHjoAAAAJ&hl=zh-CN"
   email            : "tgy@hust.edu.cn"
@@ -161,6 +161,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 

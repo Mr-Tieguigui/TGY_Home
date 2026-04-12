@@ -1,53 +1,74 @@
-﻿# 帖桂尧个人学术主页
+﻿# Guiyao Tie Personal Homepage
 
-这是基于 `AcadHomepage` 模板整理的个人主页目录，可直接用于上传到 GitHub 并部署到 GitHub Pages。
+This directory contains the personal academic homepage of **Guiyao Tie**, adapted from the `AcadHomepage` template and prepared for deployment on GitHub Pages.
 
-## 当前状态
+## Current Setup
 
-已完成：
-- 个人基本信息配置
-- 首页中文化与学术成果展示
-- 头像路径整理为 `images/profile.jpg`
-- 论文、基金、竞赛、演讲模块整理
-- 关闭未使用的 Google Scholar 动态统计脚本，避免无效请求
+Completed:
+- Basic profile configuration
+- English homepage content
+- Profile photo configured at `images/profile.jpg`
+- Publication, award, and invited talk sections updated
+- Dedicated image placeholder paths added for papers, awards, and talks
+- Unused Google Scholar dynamic fetching script removed to avoid unnecessary requests
 
-当前头像文件：
+## Image Paths
+
+Profile photo:
 - `images/profile.jpg`
 
-## 推荐部署方式
+Paper figures:
+- `images/papers/prompt-injection-tool-selection.png`
+- `images/papers/self-correction-benchmark.png`
+- `images/papers/badvla.png`
+- `images/papers/learnercompass.png`
+- `images/papers/safeagent.png`
+- `images/papers/masking-watermarking-cooperative.png`
 
-推荐将仓库名设置为：
-- `你的GitHub用户名.github.io`
+Award image:
+- `images/awards/challenge-cup.png`
 
-部署后访问地址通常为：
-- `https://你的GitHub用户名.github.io/`
+Talk image:
+- `images/talks/zhipu-innovibe.png`
 
-## 上传步骤
+Replace these placeholder files with your actual images while keeping the same filenames.
 
-1. 在 GitHub 新建仓库，仓库名建议为 `你的GitHub用户名.github.io`
-2. 将当前目录全部内容上传到仓库根目录
-3. 打开 GitHub 仓库页面，进入 `Settings -> Pages`
-4. 在 `Build and deployment` 中选择：
+## Recommended GitHub Pages Setup
+
+Recommended repository name:
+- `your-github-username.github.io`
+
+Typical published URL:
+- `https://your-github-username.github.io/`
+
+## Deployment Steps
+
+1. Create a new GitHub repository, preferably named `your-github-username.github.io`.
+2. Upload all files in this directory to the repository root.
+3. Open the repository on GitHub and go to `Settings -> Pages`.
+4. Under `Build and deployment`, choose:
    - `Source`: `Deploy from a branch`
-   - `Branch`: `main` / `/ (root)`
-5. 保存后等待 GitHub Pages 发布完成
+   - `Branch`: `main` and `/ (root)`
+5. Save the settings and wait for GitHub Pages to publish the site.
 
-## 后续可继续补充
+## Files You Will Most Likely Edit Later
 
-可在以下文件继续完善内容：
-- `_config.yml`：姓名、链接、侧边栏信息
-- `_pages/about.md`：个人简介、教育经历、更多成果
-- `images/profile.jpg`：个人头像
+- `_config.yml`: site title, links, sidebar information
+- `_pages/about.md`: biography, education, publications, awards, talks
+- `images/profile.jpg`: profile photo
+- `images/papers/`: publication figures
+- `images/awards/`: award images
+- `images/talks/`: talk images
 
-## 本地预览
+## Local Preview
 
-该项目是 Jekyll 静态站点。若本地已安装 Ruby / Bundler / Jekyll，可执行：
+If Ruby, Bundler, and Jekyll are installed locally, run:
 
 ```bash
 bundle exec jekyll serve
 ```
 
-然后访问：
+Then open:
 
 ```text
 http://127.0.0.1:4000

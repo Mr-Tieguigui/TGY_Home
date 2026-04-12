@@ -1,16 +1,10 @@
 ﻿# main links links
 main:
-  - title: "成果概览"
-    url: "/#overview"
-
-  - title: "论文成果"
+  - title: "Publications"
     url: "/#publications"
 
-  - title: "基金项目"
-    url: "/#funding"
-
-  - title: "竞赛获奖"
+  - title: "Awards"
     url: "/#awards"
 
-  - title: "学术演讲"
+  - title: "Talks"
     url: "/#talks"
