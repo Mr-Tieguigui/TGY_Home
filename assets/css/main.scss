@@ -169,3 +169,23 @@ h1:before, .anchor:before {
 }
 
 
+
+.paper-box-image {
+    width: 220px !important;
+    max-width: 220px !important;
+    flex: 0 0 220px !important;
+}
+
+.paper-box-image img {
+    width: 220px !important;
+    max-width: 220px !important;
+    height: auto !important;
+}
+
+@media (max-width: 600px) {
+    .paper-box-image,
+    .paper-box-image img {
+        width: 200px !important;
+        max-width: 200px !important;
+    }
+}

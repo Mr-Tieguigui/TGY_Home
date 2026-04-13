@@ -20,10 +20,10 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">IEEE TC</div>
-      <img src='images/papers/masking-watermarking-cooperative.png' alt="Masking-Watermarking Cooperative: An End-to-End Adversarial Protection Framework for Secure Text Distribution and Sharing" width="100%">
+      <img src='images/papers/masking-watermarking-cooperative.png' alt="Masking-Watermarking Cooperative: An End-to-End Adversarial Protection Framework for Secure Text Distribution and Sharing" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -39,29 +39,10 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
-      <div class="badge badge-rating">CCF A</div>
-      <div class="badge badge-venue">NeurIPS</div>
-      <img src='images/papers/self-correction-benchmark.png' alt="Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-### Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs
-
-**Year:** 2025  
-**Venue:** Annual Conference on Neural Information Processing Systems (NeurIPS)  
-**Category:** CCF A Conference
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">ACL</div>
-      <img src='images/papers/learnercompass.png' alt="LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning" width="100%">
+      <img src='images/papers/learnercompass.png' alt="LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -77,10 +58,10 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">ACL</div>
-      <img src='images/papers/safeagent.png' alt="SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator" width="100%">
+      <img src='images/papers/safeagent.png' alt="SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -96,10 +77,29 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">NeurIPS</div>
-      <img src='images/papers/badvla.png' alt="BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization" width="100%">
+      <img src='images/papers/self-correction-benchmark.png' alt="Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+### Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs
+
+**Year:** 2025  
+**Venue:** Annual Conference on Neural Information Processing Systems (NeurIPS)  
+**Category:** CCF A Conference
+
+  </div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div style="position:relative; width:220px; max-width:100%;">
+      <div class="badge badge-rating">CCF A</div>
+      <div class="badge badge-venue">NeurIPS</div>
+      <img src='images/papers/badvla.png' alt="BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -115,10 +115,10 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">NDSS</div>
-      <img src='images/papers/prompt-injection-tool-selection.png' alt="Prompt Injection Attack to Tool Selection in LLM Agents" width="100%">
+      <img src='images/papers/prompt-injection-tool-selection.png' alt="Prompt Injection Attack to Tool Selection in LLM Agents" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -138,10 +138,10 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">Award</div>
       <div class="badge badge-venue">Challenge Cup</div>
-      <img src='images/awards/challenge-cup.png' alt='Award image placeholder' width='100%'>
+      <img src='images/awards/challenge-cup.png' alt='Award image placeholder' width='100%' style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -163,10 +163,10 @@ redirect_from:
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
+    <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">Talk</div>
       <div class="badge badge-venue">BAAI</div>
-      <img src='images/talks/zhipu-innovibe.png' alt='Talk image placeholder' width='100%'>
+      <img src='images/talks/zhipu-innovibe.png' alt='Talk image placeholder' width='100%' style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
