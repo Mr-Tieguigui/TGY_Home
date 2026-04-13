@@ -136,11 +136,15 @@ redirect_from:
 
 # Awards
 
-<div class='media-card'>
-  <div class='media-card-image'>
-    <img src='images/awards/challenge-cup.png' alt='Award image placeholder' width='100%'>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-rating">Award</div>
+      <div class="badge badge-venue">Challenge Cup</div>
+      <img src='images/awards/challenge-cup.png' alt='Award image placeholder' width='100%'>
+    </div>
   </div>
-  <div class='media-card-text' markdown='1'>
+  <div class='paper-box-text' markdown="1">
 
 ### First Prize, National Level
 
@@ -148,7 +152,7 @@ redirect_from:
 **Track:** Special Competition for Open Bidding and Leadership Assignment  
 **Project:** Cognitive Leap, Intelligent Education on the Move: A Multi-Agent Deep Reasoning System for Adaptive Learning Path Planning  
 **Role:** Core Team Member (Ranked No. 3)  
-**Note:** Replace the image at `images/awards/challenge-cup.png` with the award poster, certificate, or team photo.
+**Image Path:** images/awards/challenge-cup.png
 
   </div>
 </div>
@@ -157,18 +161,22 @@ redirect_from:
 
 # Invited Talks
 
-<div class='media-card'>
-  <div class='media-card-image'>
-    <img src='images/talks/zhipu-innovibe.png' alt='Talk image placeholder' width='100%'>
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge badge-rating">Talk</div>
+      <div class="badge badge-venue">BAAI</div>
+      <img src='images/talks/zhipu-innovibe.png' alt='Talk image placeholder' width='100%'>
+    </div>
   </div>
-  <div class='media-card-text' markdown='1'>
+  <div class='paper-box-text' markdown="1">
 
 ### A Survey on Post-training of Large Language Models
 
 **Event:** The 7th Beijing Academy of Artificial Intelligence Conference, InnoVibe Co-Creation Session  
 **Date:** June 6, 2025  
 **Role:** Invited Speaker  
-**Note:** Replace the image at `images/talks/zhipu-innovibe.png` with a slide cover, event poster, or talk photo.
+**Image Path:** images/talks/zhipu-innovibe.png
 
   </div>
 </div>
