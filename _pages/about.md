@@ -18,15 +18,53 @@ redirect_from:
 
 # Selected Publications
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
+    <div style="position:relative; width:220px; max-width:100%;">
+      <div class="badge badge-rating">CCF A</div>
+      <div class="badge badge-venue">ACL</div>
+      <img src='images/papers/learnercompass.png' alt="LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning" style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+    </div>
+  </div>
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
+
+### LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning
+
+**Year:** 2026  
+**Venue:** Annual Meeting of the Association for Computational Linguistics (ACL Main Conference)  
+**Category:** CCF A Conference
+
+  </div>
+</div>
+
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
+    <div style="position:relative; width:220px; max-width:100%;">
+      <div class="badge badge-rating">CCF A</div>
+      <div class="badge badge-venue">ACL</div>
+      <img src='images/papers/safeagent.png' alt="SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator" style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+    </div>
+  </div>
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
+
+### SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator
+
+**Year:** 2026  
+**Venue:** Annual Meeting of the Association for Computational Linguistics (ACL Main Conference)  
+**Category:** CCF A Conference
+
+  </div>
+</div>
+
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
     <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">IEEE TC</div>
-      <img src='images/papers/masking-watermarking-cooperative.png' alt="Masking-Watermarking Cooperative: An End-to-End Adversarial Protection Framework for Secure Text Distribution and Sharing" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+      <img src='images/papers/masking-watermarking-cooperative.png' alt="Masking-Watermarking Cooperative: An End-to-End Adversarial Protection Framework for Secure Text Distribution and Sharing" style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
 
 ### Masking-Watermarking Cooperative: An End-to-End Adversarial Protection Framework for Secure Text Distribution and Sharing
 
@@ -37,53 +75,15 @@ redirect_from:
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div style="position:relative; width:220px; max-width:100%;">
-      <div class="badge badge-rating">CCF A</div>
-      <div class="badge badge-venue">ACL</div>
-      <img src='images/papers/learnercompass.png' alt="LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-### LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning
-
-**Year:** 2025  
-**Venue:** Annual Meeting of the Association for Computational Linguistics (ACL Main Conference)  
-**Category:** CCF A Conference
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div style="position:relative; width:220px; max-width:100%;">
-      <div class="badge badge-rating">CCF A</div>
-      <div class="badge badge-venue">ACL</div>
-      <img src='images/papers/safeagent.png' alt="SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-### SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator
-
-**Year:** 2025  
-**Venue:** Annual Meeting of the Association for Computational Linguistics (ACL Main Conference)  
-**Category:** CCF A Conference
-
-  </div>
-</div>
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
     <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">NeurIPS</div>
-      <img src='images/papers/self-correction-benchmark.png' alt="Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+      <img src='images/papers/self-correction-benchmark.png' alt="Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs" style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
 
 ### Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs
 
@@ -94,15 +94,15 @@ redirect_from:
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
     <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">NeurIPS</div>
-      <img src='images/papers/badvla.png' alt="BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+      <img src='images/papers/badvla.png' alt="BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization" style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
 
 ### BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization
 
@@ -113,15 +113,15 @@ redirect_from:
   </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
     <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">CCF A</div>
       <div class="badge badge-venue">NDSS</div>
-      <img src='images/papers/prompt-injection-tool-selection.png' alt="Prompt Injection Attack to Tool Selection in LLM Agents" width="100%" style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+      <img src='images/papers/prompt-injection-tool-selection.png' alt="Prompt Injection Attack to Tool Selection in LLM Agents" style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
 
 ### Prompt Injection Attack to Tool Selection in LLM Agents
 
@@ -136,15 +136,15 @@ redirect_from:
 
 # Awards
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
     <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">Award</div>
       <div class="badge badge-venue">Challenge Cup</div>
-      <img src='images/awards/challenge-cup.png' alt='Award image placeholder' width='100%' style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+      <img src='images/awards/challenge-cup.png' alt='Award image placeholder' style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
 
 ### First Prize, National Level
 
@@ -161,15 +161,15 @@ redirect_from:
 
 # Invited Talks
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
+<div class='paper-box' style="display:flex; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; padding:1.6rem 0; border-bottom:1px solid #efefef;">
+  <div class='paper-box-image' style="flex:0 0 220px; width:220px; max-width:220px;">
     <div style="position:relative; width:220px; max-width:100%;">
       <div class="badge badge-rating">Talk</div>
       <div class="badge badge-venue">BAAI</div>
-      <img src='images/talks/zhipu-innovibe.png' alt='Talk image placeholder' width='100%' style="width:220px; max-width:100%; height:auto; display:block; border-radius:12px;">
+      <img src='images/talks/zhipu-innovibe.png' alt='Talk image placeholder' style="display:block; width:220px; max-width:100%; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' style="flex:1 1 520px; min-width:260px;" markdown="1">
 
 ### A Survey on Post-training of Large Language Models
 
