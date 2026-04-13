@@ -42,49 +42,56 @@
 
 .paper-box {
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
-    flex-wrap: wrap;
+    gap: 1.5rem;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+    padding: 1.6rem 0;
 
-    .paper-box-image{
-        justify-content: center;
+    .paper-box-image {
         display: flex;
+        justify-content: center;
         width: 100%;
-        order: 2;
+        max-width: 240px;
+        flex: 0 0 240px;
+        order: 1;
+
+        > div {
+            position: relative;
+            width: 100%;
+        }
+
         img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
+            width: 100%;
+            max-width: 240px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.16);
             object-fit: cover;
         }
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
 
+    .paper-box-text {
+        max-width: none;
+        flex: 1 1 auto;
+        order: 2;
     }
 
+    @include breakpoint(max-width $small) {
+        flex-direction: column;
+        gap: 1rem;
 
+        .paper-box-image {
+            max-width: 220px;
+            width: 100%;
+            flex: 0 0 auto;
+        }
+
+        .paper-box-image img {
+            max-width: 220px;
+        }
+    }
 }
 
 $scroll_offset : 2em;
@@ -160,4 +167,5 @@ h1:before, .anchor:before {
         width: 100%;
     }
 }
+
 
