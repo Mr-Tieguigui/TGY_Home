@@ -9,6 +9,7 @@
 title                    : "Guiyao Tie | Personal Homepage"
 description              : "Personal homepage of Guiyao Tie, focusing on LLM evaluation, reasoning analysis, post-training, and LLM agent security."
 repository               : ""
+baseurl                  : "/TGY_Home"
 google_scholar_stats_use_cdn : false
 
 # google analytics

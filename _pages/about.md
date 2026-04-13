@@ -24,7 +24,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b1e3f; color:#fff; font-size:12px; z-index:2;">CCF A</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">ACL</div>
-        <img src="images/papers/learnercompass.png" alt="LearnerCoMPASS" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/papers/learnercompass.png" alt="LearnerCoMPASS" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -42,7 +42,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b1e3f; color:#fff; font-size:12px; z-index:2;">CCF A</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">ACL</div>
-        <img src="images/papers/safeagent.png" alt="SafeAgent" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/papers/safeagent.png" alt="SafeAgent" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -60,7 +60,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b1e3f; color:#fff; font-size:12px; z-index:2;">CCF A</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">IEEE TC</div>
-        <img src="images/papers/masking-watermarking-cooperative.png" alt="Masking-Watermarking Cooperative" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/papers/masking-watermarking-cooperative.png" alt="Masking-Watermarking Cooperative" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -78,7 +78,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b1e3f; color:#fff; font-size:12px; z-index:2;">CCF A</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">NeurIPS</div>
-        <img src="images/papers/self-correction-benchmark.png" alt="Can LLMs Correct Themselves?" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/papers/self-correction-benchmark.png" alt="Can LLMs Correct Themselves?" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -96,7 +96,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b1e3f; color:#fff; font-size:12px; z-index:2;">CCF A</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">NeurIPS</div>
-        <img src="images/papers/badvla.png" alt="BadVLA" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/papers/badvla.png" alt="BadVLA" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -114,7 +114,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b1e3f; color:#fff; font-size:12px; z-index:2;">CCF A</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">NDSS</div>
-        <img src="images/papers/prompt-injection-tool-selection.png" alt="Prompt Injection Attack to Tool Selection in LLM Agents" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/papers/prompt-injection-tool-selection.png" alt="Prompt Injection Attack to Tool Selection in LLM Agents" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -136,7 +136,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#8b5a1e; color:#fff; font-size:12px; z-index:2;">Award</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">Challenge Cup</div>
-        <img src="images/awards/challenge-cup.png" alt="Award image placeholder" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/awards/challenge-cup.png" alt="Award image placeholder" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
@@ -160,7 +160,7 @@ redirect_from:
       <div style="position:relative; width:220px;">
         <div style="position:absolute; top:8px; left:-6px; padding:4px 12px; background:#2c6e49; color:#fff; font-size:12px; z-index:2;">Talk</div>
         <div style="position:absolute; top:42px; left:-6px; padding:4px 12px; background:#0b4dbb; color:#fff; font-size:12px; z-index:1;">BAAI</div>
-        <img src="images/talks/zhipu-innovibe.png" alt="Talk image placeholder" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
+        <img src="{{ site.baseurl }}/images/talks/zhipu-innovibe.png" alt="Talk image placeholder" style="display:block; width:220px; height:auto; border-radius:12px; box-shadow:3px 3px 8px rgba(0,0,0,0.16);">
       </div>
     </td>
     <td style="padding:0 0 24px 0; vertical-align:top; border-bottom:1px solid #efefef;">
