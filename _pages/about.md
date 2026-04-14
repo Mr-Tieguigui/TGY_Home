@@ -16,7 +16,7 @@ redirect_from:
 
 # Selected Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">ACL 2026</div><img src='{{ "/images/papers/learnercompass.png" | relative_url }}' alt="LearnerCoMPASS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">ACL 2026</div><img src='images/papers/learnercompass.png' alt="LearnerCoMPASS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **LearnerCoMPASS: Intelligent Tutoring System with Dynamic Cognitive Diagnosis and Multi-Model Path Planning**
@@ -29,7 +29,7 @@ Annual Meeting of the Association for Computational Linguistics (ACL Main Confer
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">ACL 2026</div><img src='{{ "/images/papers/safeagent.png" | relative_url }}' alt="SafeAgent" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">ACL 2026</div><img src='images/papers/safeagent.png' alt="SafeAgent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SafeAgent: Safeguarding LLM Agents via an Automated Risk Simulator**
@@ -42,7 +42,7 @@ Annual Meeting of the Association for Computational Linguistics (ACL Main Confer
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">IEEE TC 2026</div><img src='{{ "/images/papers/masking-watermarking-cooperative.png" | relative_url }}' alt="Masking-Watermarking Cooperative" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">IEEE TC 2026</div><img src='images/papers/masking-watermarking-cooperative.png' alt="Masking-Watermarking Cooperative" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Masking-Watermarking Cooperative: An End-to-End Adversarial Protection Framework for Secure Text Distribution and Sharing**
@@ -55,7 +55,7 @@ IEEE Transactions on Computers
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">NeurIPS 2025</div><img src='{{ "/images/papers/self-correction-benchmark.png" | relative_url }}' alt="Self-Correction" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">NeurIPS 2025</div><img src='images/papers/self-correction-benchmark.png' alt="Self-Correction" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs**
@@ -68,7 +68,7 @@ Annual Conference on Neural Information Processing Systems (NeurIPS)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">NeurIPS 2025</div><img src='{{ "/images/papers/badvla.png" | relative_url }}' alt="BadVLA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">NeurIPS 2025</div><img src='images/papers/badvla.png' alt="BadVLA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **BadVLA: Towards Backdoor Attacks on Vision-Language-Action Models via Objective-Decoupled Optimization**
@@ -81,7 +81,7 @@ Annual Conference on Neural Information Processing Systems (NeurIPS)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">NDSS 2025</div><img src='{{ "/images/papers/prompt-injection-tool-selection.png" | relative_url }}' alt="Prompt Injection Attack" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">CCF A</div><div class="badge badge-venue">NDSS 2025</div><img src='images/papers/prompt-injection-tool-selection.png' alt="Prompt Injection Attack" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Prompt Injection Attack to Tool Selection in LLM Agents**
@@ -98,7 +98,7 @@ Network and Distributed System Security Symposium (NDSS)
 
 # Awards
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">Award</div><div class="badge badge-venue">Challenge Cup</div><img src='{{ "/images/awards/challenge-cup.png" | relative_url }}' alt="Challenge Cup" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">Award</div><div class="badge badge-venue">Challenge Cup</div><img src='images/awards/challenge-cup.png' alt="Challenge Cup" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **First Prize, National Level**
@@ -115,7 +115,7 @@ The 19th Challenge Cup National Extracurricular Academic and Technological Works
 
 # Invited Talks
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">Talk</div><div class="badge badge-venue">BAAI 2025</div><img src='{{ "/images/talks/zhipu-innovibe.png" | relative_url }}' alt="Invited Talk" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge-rating">Talk</div><div class="badge badge-venue">BAAI 2025</div><img src='images/talks/zhipu-innovibe.png' alt="Invited Talk" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **A Survey on Post-training of Large Language Models**
@@ -127,3 +127,4 @@ The 7th Beijing Academy of Artificial Intelligence Conference, InnoVibe Co-Creat
 - Image path: `images/talks/zhipu-innovibe.png`
 </div>
 </div>
+

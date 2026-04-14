@@ -1,4 +1,4 @@
-name: Deploy Jekyll site to GitHub Pages
+﻿name: Deploy Jekyll site to GitHub Pages
 
 on:
   push:
@@ -21,24 +21,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-
-      - name: Install dependencies
-        run: |
-          rm -f Gemfile.lock
-          bundle install
-
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+          bundler-cache: true
 
       - name: Build with Jekyll
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+          PAGES_REPO_NWO: Mr-Tieguigui/TGY_Home
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
