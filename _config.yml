@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Guiyao Tie | Personal Homepage"
 description              : "Personal homepage of Guiyao Tie, focusing on LLM evaluation, reasoning analysis, post-training, and LLM agent security."
-repository               : ""
+repository               : "Mr-Tieguigui/TGY_Home"
 baseurl                  : "/TGY_Home"
 google_scholar_stats_use_cdn : false
 
@@ -162,6 +162,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 
 
